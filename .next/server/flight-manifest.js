@@ -57,7 +57,7 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./src/components/sections/about.jsx",
         "name": "",
         "chunks": [
-          "app/page:app/page"
+          "app/about/page:app/about/page"
         ],
         "async": false
       },
@@ -65,7 +65,7 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./src/components/sections/about.jsx",
         "name": "*",
         "chunks": [
-          "app/page:app/page"
+          "app/about/page:app/about/page"
         ],
         "async": false
       },
@@ -73,7 +73,7 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./src/components/sections/about.jsx",
         "name": "About",
         "chunks": [
-          "app/page:app/page"
+          "app/about/page:app/about/page"
         ],
         "async": false
       }
@@ -327,7 +327,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./src/components/sections/about.jsx",
       "name": "",
       "chunks": [
-        "app/page:app/page"
+        "app/about/page:app/about/page"
       ],
       "async": false
     },
@@ -335,7 +335,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./src/components/sections/about.jsx",
       "name": "*",
       "chunks": [
-        "app/page:app/page"
+        "app/about/page:app/about/page"
       ],
       "async": false
     },
@@ -343,7 +343,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./src/components/sections/about.jsx",
       "name": "About",
       "chunks": [
-        "app/page:app/page"
+        "app/about/page:app/about/page"
       ],
       "async": false
     }

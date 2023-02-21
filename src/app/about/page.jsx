@@ -1,8 +1,8 @@
-import { SetDirection } from "@/components/sections/about";
+import { About } from "@/components/sections/about";
 import React from "react";
 
 const about = () => {
-  return <SetDirection />;
+  return <About />;
 };
 
 export default about;
