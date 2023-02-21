@@ -1,6 +1,7 @@
 import { Footer } from "@/components/footer";
 import { Header } from "@/components/header";
-import Login from "@/components/sections/Login";
+import Login from "@/components/Login";
+
 import "src/app/globals.css";
 
 export default function Layout({ children }) {
@@ -20,6 +21,7 @@ export default function Layout({ children }) {
             {children}
           </main>
           <Login />
+
           <Footer />
         </div>
       </body>

@@ -78,6 +78,66 @@
         "async": false
       }
     },
+    "(app-client)/./src/assets/log.webp": {
+      "": {
+        "id": "(sc_client)/./src/assets/log.webp",
+        "name": "",
+        "chunks": [
+          "app/layout:app/layout"
+        ],
+        "async": false
+      },
+      "*": {
+        "id": "(sc_client)/./src/assets/log.webp",
+        "name": "*",
+        "chunks": [
+          "app/layout:app/layout"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./src/assets/log.webp",
+        "name": "default",
+        "chunks": [
+          "app/layout:app/layout"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./src/components/Login.js": {
+      "": {
+        "id": "(sc_client)/./src/components/Login.js",
+        "name": "",
+        "chunks": [
+          "app/layout:app/layout"
+        ],
+        "async": false
+      },
+      "*": {
+        "id": "(sc_client)/./src/components/Login.js",
+        "name": "*",
+        "chunks": [
+          "app/layout:app/layout"
+        ],
+        "async": false
+      },
+      "Login": {
+        "id": "(sc_client)/./src/components/Login.js",
+        "name": "Login",
+        "chunks": [
+          "app/layout:app/layout"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./src/components/Login.js",
+        "name": "default",
+        "chunks": [
+          "app/layout:app/layout"
+        ],
+        "async": false
+      }
+    },
     "(app-client)/./src/components/header.jsx": {
       "": {
         "id": "(sc_client)/./src/components/header.jsx",
@@ -98,32 +158,6 @@
       "Header": {
         "id": "(sc_client)/./src/components/header.jsx",
         "name": "Header",
-        "chunks": [
-          "app/layout:app/layout"
-        ],
-        "async": false
-      }
-    },
-    "(app-client)/./src/components/sections/Login.jsx": {
-      "": {
-        "id": "(sc_client)/./src/components/sections/Login.jsx",
-        "name": "",
-        "chunks": [
-          "app/layout:app/layout"
-        ],
-        "async": false
-      },
-      "*": {
-        "id": "(sc_client)/./src/components/sections/Login.jsx",
-        "name": "*",
-        "chunks": [
-          "app/layout:app/layout"
-        ],
-        "async": false
-      },
-      "default": {
-        "id": "(sc_client)/./src/components/sections/Login.jsx",
-        "name": "default",
         "chunks": [
           "app/layout:app/layout"
         ],
@@ -230,6 +264,32 @@
         "name": "default",
         "chunks": [
           "app-client-internals:app-client-internals"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./src/assets/preview.webp": {
+      "": {
+        "id": "(sc_client)/./src/assets/preview.webp",
+        "name": "",
+        "chunks": [
+          "app/image/page:app/image/page"
+        ],
+        "async": false
+      },
+      "*": {
+        "id": "(sc_client)/./src/assets/preview.webp",
+        "name": "*",
+        "chunks": [
+          "app/image/page:app/image/page"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./src/assets/preview.webp",
+        "name": "default",
+        "chunks": [
+          "app/image/page:app/image/page"
         ],
         "async": false
       }
@@ -377,6 +437,66 @@
       "async": false
     }
   },
+  "/home/aditya-datta/ybt_project/src/assets/log.webp": {
+    "": {
+      "id": "(app-client)/./src/assets/log.webp",
+      "name": "",
+      "chunks": [
+        "app/layout:app/layout"
+      ],
+      "async": false
+    },
+    "*": {
+      "id": "(app-client)/./src/assets/log.webp",
+      "name": "*",
+      "chunks": [
+        "app/layout:app/layout"
+      ],
+      "async": false
+    },
+    "default": {
+      "id": "(app-client)/./src/assets/log.webp",
+      "name": "default",
+      "chunks": [
+        "app/layout:app/layout"
+      ],
+      "async": false
+    }
+  },
+  "/home/aditya-datta/ybt_project/src/components/Login.js": {
+    "": {
+      "id": "(app-client)/./src/components/Login.js",
+      "name": "",
+      "chunks": [
+        "app/layout:app/layout"
+      ],
+      "async": false
+    },
+    "*": {
+      "id": "(app-client)/./src/components/Login.js",
+      "name": "*",
+      "chunks": [
+        "app/layout:app/layout"
+      ],
+      "async": false
+    },
+    "Login": {
+      "id": "(app-client)/./src/components/Login.js",
+      "name": "Login",
+      "chunks": [
+        "app/layout:app/layout"
+      ],
+      "async": false
+    },
+    "default": {
+      "id": "(app-client)/./src/components/Login.js",
+      "name": "default",
+      "chunks": [
+        "app/layout:app/layout"
+      ],
+      "async": false
+    }
+  },
   "/home/aditya-datta/ybt_project/src/components/header.jsx": {
     "": {
       "id": "(app-client)/./src/components/header.jsx",
@@ -397,32 +517,6 @@
     "Header": {
       "id": "(app-client)/./src/components/header.jsx",
       "name": "Header",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    }
-  },
-  "/home/aditya-datta/ybt_project/src/components/sections/Login.jsx": {
-    "": {
-      "id": "(app-client)/./src/components/sections/Login.jsx",
-      "name": "",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
-    "*": {
-      "id": "(app-client)/./src/components/sections/Login.jsx",
-      "name": "*",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
-    "default": {
-      "id": "(app-client)/./src/components/sections/Login.jsx",
-      "name": "default",
       "chunks": [
         "app/layout:app/layout"
       ],
@@ -645,6 +739,32 @@
         "static/css/app/image/page.css",
         "static/css/_app-client_src_app_globals_css.css"
       ]
+    }
+  },
+  "/home/aditya-datta/ybt_project/src/assets/preview.webp": {
+    "": {
+      "id": "(app-client)/./src/assets/preview.webp",
+      "name": "",
+      "chunks": [
+        "app/image/page:app/image/page"
+      ],
+      "async": false
+    },
+    "*": {
+      "id": "(app-client)/./src/assets/preview.webp",
+      "name": "*",
+      "chunks": [
+        "app/image/page:app/image/page"
+      ],
+      "async": false
+    },
+    "default": {
+      "id": "(app-client)/./src/assets/preview.webp",
+      "name": "default",
+      "chunks": [
+        "app/image/page:app/image/page"
+      ],
+      "async": false
     }
   },
   "/home/aditya-datta/ybt_project/src/app/image/page.jsx": {

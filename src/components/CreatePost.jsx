@@ -1,7 +1,7 @@
 import Image from "next/image";
 import React, { useState } from "react";
 
-// import { preview } from '../assets';
+import preview from "../assets/preview.webp";
 import { getRandomPrompt } from "../random/page";
 
 import FormField from "./FormField";
@@ -29,15 +29,18 @@ const CreatePost = () => {
     if (form.prompt) {
       try {
         setGeneratingImg(true);
-        const response = await fetch("", {
-          method: "POST",
-          headers: {
-            "Content-Type": "application/json",
-          },
-          body: JSON.stringify({
-            prompt: form.prompt,
-          }),
-        });
+        const response = await fetch(
+          "https://wise-queens-study-34-142-189-113.loca.lt/docs#/",
+          {
+            method: "POST",
+            headers: {
+              "Content-Type": "application/json",
+            },
+            body: JSON.stringify({
+              prompt: form.prompt,
+            }),
+          }
+        );
 
         const data = await response.json();
         setForm({ ...form, photo: `data:image/jpeg;base64,${data.photo}` });
@@ -57,13 +60,16 @@ const CreatePost = () => {
     if (form.prompt && form.photo) {
       setLoading(true);
       try {
-        const response = await fetch("", {
-          method: "POST",
-          headers: {
-            "Content-Type": "application/json",
-          },
-          body: JSON.stringify({ ...form }),
-        });
+        const response = await fetch(
+          "https://wise-queens-study-34-142-189-113.loca.lt/docs#/default/text2img_text2img_post",
+          {
+            method: "POST",
+            headers: {
+              "Content-Type": "application/json",
+            },
+            body: JSON.stringify({ ...form }),
+          }
+        );
 
         await response.json();
         alert("Success");
@@ -120,14 +126,16 @@ const CreatePost = () => {
                 />
               ) : (
                 <Image
-                  src=""
+                  src={preview}
                   alt="preview"
                   className="h-9/12 w-9/12 object-contain opacity-40"
+                  width={1080}
+                  height={1080}
                 />
               )}
 
               {generatingImg && (
-                <div className="absolute inset-0 z-0 flex items-center justify-center rounded-lg bg-[rgba(239,82,82,0.5)]">
+                <div className="absolute inset-0 z-0 flex items-center justify-center rounded-lg bg-[rgba(167,145,145,0.5)]">
                   <Loader />
                 </div>
               )}
@@ -138,7 +146,7 @@ const CreatePost = () => {
             <button
               type="button"
               onClick={generateImage}
-              className=" px-2.5 w-full rounded-md bg-[#21bf0f] py-3 text-center text-sm font-medium text-white sm:w-auto"
+              className=" mt-3 w-full rounded-xl bg-[#21bf0f] py-3 px-5 text-center text-sm font-semibold"
             >
               {generatingImg ? "Generating..." : "Generate"}
             </button>
