@@ -3,6 +3,7 @@ import React, { useState } from "react";
 
 // import { preview } from '../assets';
 import { getRandomPrompt } from "../random/page";
+
 import FormField from "./FormField";
 import Loader from "./Loader";
 
@@ -78,70 +79,74 @@ const CreatePost = () => {
   };
 
   return (
-    <section className="mx-auto max-w-7xl">
-      <div>
-        <h1 className="text-[32px] font-extrabold text-[#222328]">Create</h1>
-        <p className="mt-2 max-w-[500px] text-[14px] text-[#666e75]">
-          Generate an imaginative image{" "}
-        </p>
-      </div>
+    // <div className="bg-page-gradient pt-navigation-height">
+    <div className="min-h-[calc(100vh-73px)] w-full bg-[#171b29] px-4 py-8 sm:p-8">
+      <section className="mx-auto max-w-7xl">
+        <div>
+          <h1 className="text-[32px] font-extrabold text-[#e0e1e9]">Create</h1>
+          <p className="mt-2 max-w-[500px] text-[14px] text-[#e6eaed]">
+            Generate an imaginative image{" "}
+          </p>
+        </div>
 
-      <form className="mt-16 max-w-3xl" onSubmit={handleSubmit}>
-        <div className="flex flex-col gap-5">
-          <FormField
-            labelName="Your Name"
-            type="text"
-            name="name"
-            placeholder="Eg., Arindom Chatterjee"
-            value={form.name}
-            handleChange={handleChange}
-          />
+        <form className="mt-16 max-w-3xl" onSubmit={handleSubmit}>
+          <div className="flex flex-col gap-5">
+            <FormField
+              labelName="Your Name"
+              type="text"
+              name="name"
+              placeholder="Eg., Arindom Chatterjee"
+              value={form.name}
+              handleChange={handleChange}
+            />
 
-          <FormField
-            labelName="Prompt"
-            type="text"
-            name="prompt"
-            placeholder="Rohit running after Sudipta"
-            value={form.prompt}
-            handleChange={handleChange}
-            isSurpriseMe
-            handleSurpriseMe={handleSurpriseMe}
-          />
+            <FormField
+              labelName="Prompt"
+              type="text"
+              name="prompt"
+              placeholder="Rohit running after Sudipta"
+              value={form.prompt}
+              handleChange={handleChange}
+              isSurpriseMe
+              handleSurpriseMe={handleSurpriseMe}
+            />
 
-          <div className="bg-gray-50 border-gray-300 text-gray-900 focus:ring-blue-500 focus:border-blue-500 w-64 h-64 relative flex items-center justify-center rounded-lg border p-3 text-sm">
-            {form.photo ? (
-              <Image
-                src=""
-                alt={form.prompt}
-                className="h-full w-full object-contain"
-              />
-            ) : (
-              <Image
-                src=""
-                alt="preview"
-                className="h-9/12 w-9/12 object-contain opacity-40"
-              />
-            )}
+            <div className="border-gray-300 text-gray-900 focus:ring-blue-500 focus:border-blue-500 w-64 h-64 relative flex items-center justify-center rounded-lg border bg-white p-3 text-sm">
+              {form.photo ? (
+                <Image
+                  src=""
+                  alt={form.prompt}
+                  className="h-full w-full object-contain"
+                />
+              ) : (
+                <Image
+                  src=""
+                  alt="preview"
+                  className="h-9/12 w-9/12 object-contain opacity-40"
+                />
+              )}
 
-            {generatingImg && (
-              <div className="absolute inset-0 z-0 flex items-center justify-center rounded-lg bg-[rgba(0,0,0,0.5)]">
-                <Loader />
-              </div>
-            )}
+              {generatingImg && (
+                <div className="absolute inset-0 z-0 flex items-center justify-center rounded-lg bg-[rgba(239,82,82,0.5)]">
+                  <Loader />
+                </div>
+              )}
+            </div>
           </div>
-        </div>
 
-        <div className="mt-5 flex gap-5">
-          <button
-            type="button"
-            onClick={generateImage}
-            className=" bg-green-700 py-2.5 w-full rounded-md px-5 text-center text-sm font-medium text-white sm:w-auto"
-          >
-            {generatingImg ? "Generating..." : "Generate"}
-          </button>
-        </div>
-      </form>
-    </section>
+          <div className="mt-5 flex gap-5">
+            <button
+              type="button"
+              onClick={generateImage}
+              className=" px-2.5 w-full rounded-md bg-[#21bf0f] py-3 text-center text-sm font-medium text-white sm:w-auto"
+            >
+              {generatingImg ? "Generating..." : "Generate"}
+            </button>
+          </div>
+        </form>
+      </section>
+    </div>
+    // </div>
   );
 };
 

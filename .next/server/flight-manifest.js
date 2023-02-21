@@ -233,10 +233,39 @@ self.__RSC_MANIFEST={
         ],
         "async": false
       }
+    },
+    "(app-client)/./src/app/image/page.jsx": {
+      "": {
+        "id": "(sc_client)/./src/app/image/page.jsx",
+        "name": "",
+        "chunks": [
+          "app/image/page:app/image/page"
+        ],
+        "async": false
+      },
+      "*": {
+        "id": "(sc_client)/./src/app/image/page.jsx",
+        "name": "*",
+        "chunks": [
+          "app/image/page:app/image/page"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./src/app/image/page.jsx",
+        "name": "default",
+        "chunks": [
+          "app/image/page:app/image/page"
+        ],
+        "async": false
+      }
     }
   },
   "__edge_ssr_module_mapping__": {},
   "__entry_css_files__": {
+    "/home/aditya-datta/ybt_project/src/app/image/page": [
+      "static/css/app/image/page.css"
+    ],
     "/home/aditya-datta/ybt_project/src/app/layout": [
       "static/css/_app-client_src_app_globals_css.css"
     ],
@@ -613,8 +642,35 @@ self.__RSC_MANIFEST={
       "id": "null",
       "name": "default",
       "chunks": [
+        "static/css/app/image/page.css",
         "static/css/_app-client_src_app_globals_css.css"
       ]
+    }
+  },
+  "/home/aditya-datta/ybt_project/src/app/image/page.jsx": {
+    "": {
+      "id": "(app-client)/./src/app/image/page.jsx",
+      "name": "",
+      "chunks": [
+        "app/image/page:app/image/page"
+      ],
+      "async": false
+    },
+    "*": {
+      "id": "(app-client)/./src/app/image/page.jsx",
+      "name": "*",
+      "chunks": [
+        "app/image/page:app/image/page"
+      ],
+      "async": false
+    },
+    "default": {
+      "id": "(app-client)/./src/app/image/page.jsx",
+      "name": "default",
+      "chunks": [
+        "app/image/page:app/image/page"
+      ],
+      "async": false
     }
   }
 }
