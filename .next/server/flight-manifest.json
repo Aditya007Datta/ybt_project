@@ -5,7 +5,7 @@
         "id": "(sc_client)/./node_modules/next/dist/client/link.js",
         "name": "",
         "chunks": [
-          "app/layout:app/layout"
+          "app/page:app/page"
         ],
         "async": false
       },
@@ -13,7 +13,7 @@
         "id": "(sc_client)/./node_modules/next/dist/client/link.js",
         "name": "*",
         "chunks": [
-          "app/layout:app/layout"
+          "app/page:app/page"
         ],
         "async": false
       },
@@ -21,119 +21,7 @@
         "id": "(sc_client)/./node_modules/next/dist/client/link.js",
         "name": "default",
         "chunks": [
-          "app/layout:app/layout"
-        ],
-        "async": false
-      }
-    },
-    "(app-client)/./src/components/hero-image.jsx": {
-      "": {
-        "id": "(sc_client)/./src/components/hero-image.jsx",
-        "name": "",
-        "chunks": [
           "app/page:app/page"
-        ],
-        "async": false
-      },
-      "*": {
-        "id": "(sc_client)/./src/components/hero-image.jsx",
-        "name": "*",
-        "chunks": [
-          "app/page:app/page"
-        ],
-        "async": false
-      },
-      "HeroImage": {
-        "id": "(sc_client)/./src/components/hero-image.jsx",
-        "name": "HeroImage",
-        "chunks": [
-          "app/page:app/page"
-        ],
-        "async": false
-      }
-    },
-    "(app-client)/./src/components/sections/about.jsx": {
-      "": {
-        "id": "(sc_client)/./src/components/sections/about.jsx",
-        "name": "",
-        "chunks": [
-          "app/about/page:app/about/page"
-        ],
-        "async": false
-      },
-      "*": {
-        "id": "(sc_client)/./src/components/sections/about.jsx",
-        "name": "*",
-        "chunks": [
-          "app/about/page:app/about/page"
-        ],
-        "async": false
-      },
-      "About": {
-        "id": "(sc_client)/./src/components/sections/about.jsx",
-        "name": "About",
-        "chunks": [
-          "app/about/page:app/about/page"
-        ],
-        "async": false
-      }
-    },
-    "(app-client)/./src/assets/log.webp": {
-      "": {
-        "id": "(sc_client)/./src/assets/log.webp",
-        "name": "",
-        "chunks": [
-          "app/layout:app/layout"
-        ],
-        "async": false
-      },
-      "*": {
-        "id": "(sc_client)/./src/assets/log.webp",
-        "name": "*",
-        "chunks": [
-          "app/layout:app/layout"
-        ],
-        "async": false
-      },
-      "default": {
-        "id": "(sc_client)/./src/assets/log.webp",
-        "name": "default",
-        "chunks": [
-          "app/layout:app/layout"
-        ],
-        "async": false
-      }
-    },
-    "(app-client)/./src/components/Login.js": {
-      "": {
-        "id": "(sc_client)/./src/components/Login.js",
-        "name": "",
-        "chunks": [
-          "app/layout:app/layout"
-        ],
-        "async": false
-      },
-      "*": {
-        "id": "(sc_client)/./src/components/Login.js",
-        "name": "*",
-        "chunks": [
-          "app/layout:app/layout"
-        ],
-        "async": false
-      },
-      "Login": {
-        "id": "(sc_client)/./src/components/Login.js",
-        "name": "Login",
-        "chunks": [
-          "app/layout:app/layout"
-        ],
-        "async": false
-      },
-      "default": {
-        "id": "(sc_client)/./src/components/Login.js",
-        "name": "default",
-        "chunks": [
-          "app/layout:app/layout"
         ],
         "async": false
       }
@@ -160,6 +48,58 @@
         "name": "Header",
         "chunks": [
           "app/layout:app/layout"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./src/assets/preview.webp": {
+      "": {
+        "id": "(sc_client)/./src/assets/preview.webp",
+        "name": "",
+        "chunks": [
+          "app/image/page:app/image/page"
+        ],
+        "async": false
+      },
+      "*": {
+        "id": "(sc_client)/./src/assets/preview.webp",
+        "name": "*",
+        "chunks": [
+          "app/image/page:app/image/page"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./src/assets/preview.webp",
+        "name": "default",
+        "chunks": [
+          "app/image/page:app/image/page"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./src/app/image/page.jsx": {
+      "": {
+        "id": "(sc_client)/./src/app/image/page.jsx",
+        "name": "",
+        "chunks": [
+          "app/image/page:app/image/page"
+        ],
+        "async": false
+      },
+      "*": {
+        "id": "(sc_client)/./src/app/image/page.jsx",
+        "name": "*",
+        "chunks": [
+          "app/image/page:app/image/page"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./src/app/image/page.jsx",
+        "name": "default",
+        "chunks": [
+          "app/image/page:app/image/page"
         ],
         "async": false
       }
@@ -268,54 +208,54 @@
         "async": false
       }
     },
-    "(app-client)/./src/assets/preview.webp": {
+    "(app-client)/./src/components/hero-image.jsx": {
       "": {
-        "id": "(sc_client)/./src/assets/preview.webp",
+        "id": "(sc_client)/./src/components/hero-image.jsx",
         "name": "",
         "chunks": [
-          "app/image/page:app/image/page"
+          "app/page:app/page"
         ],
         "async": false
       },
       "*": {
-        "id": "(sc_client)/./src/assets/preview.webp",
+        "id": "(sc_client)/./src/components/hero-image.jsx",
         "name": "*",
         "chunks": [
-          "app/image/page:app/image/page"
+          "app/page:app/page"
         ],
         "async": false
       },
-      "default": {
-        "id": "(sc_client)/./src/assets/preview.webp",
-        "name": "default",
+      "HeroImage": {
+        "id": "(sc_client)/./src/components/hero-image.jsx",
+        "name": "HeroImage",
         "chunks": [
-          "app/image/page:app/image/page"
+          "app/page:app/page"
         ],
         "async": false
       }
     },
-    "(app-client)/./src/app/image/page.jsx": {
+    "(app-client)/./src/components/sections/about.jsx": {
       "": {
-        "id": "(sc_client)/./src/app/image/page.jsx",
+        "id": "(sc_client)/./src/components/sections/about.jsx",
         "name": "",
         "chunks": [
-          "app/image/page:app/image/page"
+          "app/about/page:app/about/page"
         ],
         "async": false
       },
       "*": {
-        "id": "(sc_client)/./src/app/image/page.jsx",
+        "id": "(sc_client)/./src/components/sections/about.jsx",
         "name": "*",
         "chunks": [
-          "app/image/page:app/image/page"
+          "app/about/page:app/about/page"
         ],
         "async": false
       },
-      "default": {
-        "id": "(sc_client)/./src/app/image/page.jsx",
-        "name": "default",
+      "About": {
+        "id": "(sc_client)/./src/components/sections/about.jsx",
+        "name": "About",
         "chunks": [
-          "app/image/page:app/image/page"
+          "app/about/page:app/about/page"
         ],
         "async": false
       }
@@ -326,10 +266,10 @@
     "/home/aditya-datta/ybt_project/src/app/image/page": [
       "static/css/app/image/page.css"
     ],
-    "/home/aditya-datta/ybt_project/src/app/layout": [
+    "/home/aditya-datta/ybt_project/src/app/page": [
       "static/css/_app-client_src_app_globals_css.css"
     ],
-    "/home/aditya-datta/ybt_project/src/app/page": [
+    "/home/aditya-datta/ybt_project/src/app/layout": [
       "static/css/_app-client_src_app_globals_css.css"
     ]
   },
@@ -338,7 +278,7 @@
       "id": "(app-client)/./node_modules/next/dist/client/link.js",
       "name": "",
       "chunks": [
-        "app/layout:app/layout"
+        "app/page:app/page"
       ],
       "async": false
     },
@@ -346,7 +286,7 @@
       "id": "(app-client)/./node_modules/next/dist/client/link.js",
       "name": "*",
       "chunks": [
-        "app/layout:app/layout"
+        "app/page:app/page"
       ],
       "async": false
     },
@@ -354,7 +294,7 @@
       "id": "(app-client)/./node_modules/next/dist/client/link.js",
       "name": "default",
       "chunks": [
-        "app/layout:app/layout"
+        "app/page:app/page"
       ],
       "async": false
     }
@@ -364,7 +304,7 @@
       "id": "(app-client)/./node_modules/next/dist/client/link.js",
       "name": "",
       "chunks": [
-        "app/layout:app/layout"
+        "app/page:app/page"
       ],
       "async": false
     },
@@ -372,7 +312,7 @@
       "id": "(app-client)/./node_modules/next/dist/client/link.js",
       "name": "*",
       "chunks": [
-        "app/layout:app/layout"
+        "app/page:app/page"
       ],
       "async": false
     },
@@ -380,119 +320,7 @@
       "id": "(app-client)/./node_modules/next/dist/client/link.js",
       "name": "default",
       "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    }
-  },
-  "/home/aditya-datta/ybt_project/src/components/hero-image.jsx": {
-    "": {
-      "id": "(app-client)/./src/components/hero-image.jsx",
-      "name": "",
-      "chunks": [
         "app/page:app/page"
-      ],
-      "async": false
-    },
-    "*": {
-      "id": "(app-client)/./src/components/hero-image.jsx",
-      "name": "*",
-      "chunks": [
-        "app/page:app/page"
-      ],
-      "async": false
-    },
-    "HeroImage": {
-      "id": "(app-client)/./src/components/hero-image.jsx",
-      "name": "HeroImage",
-      "chunks": [
-        "app/page:app/page"
-      ],
-      "async": false
-    }
-  },
-  "/home/aditya-datta/ybt_project/src/components/sections/about.jsx": {
-    "": {
-      "id": "(app-client)/./src/components/sections/about.jsx",
-      "name": "",
-      "chunks": [
-        "app/about/page:app/about/page"
-      ],
-      "async": false
-    },
-    "*": {
-      "id": "(app-client)/./src/components/sections/about.jsx",
-      "name": "*",
-      "chunks": [
-        "app/about/page:app/about/page"
-      ],
-      "async": false
-    },
-    "About": {
-      "id": "(app-client)/./src/components/sections/about.jsx",
-      "name": "About",
-      "chunks": [
-        "app/about/page:app/about/page"
-      ],
-      "async": false
-    }
-  },
-  "/home/aditya-datta/ybt_project/src/assets/log.webp": {
-    "": {
-      "id": "(app-client)/./src/assets/log.webp",
-      "name": "",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
-    "*": {
-      "id": "(app-client)/./src/assets/log.webp",
-      "name": "*",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
-    "default": {
-      "id": "(app-client)/./src/assets/log.webp",
-      "name": "default",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    }
-  },
-  "/home/aditya-datta/ybt_project/src/components/Login.js": {
-    "": {
-      "id": "(app-client)/./src/components/Login.js",
-      "name": "",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
-    "*": {
-      "id": "(app-client)/./src/components/Login.js",
-      "name": "*",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
-    "Login": {
-      "id": "(app-client)/./src/components/Login.js",
-      "name": "Login",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
-    "default": {
-      "id": "(app-client)/./src/components/Login.js",
-      "name": "default",
-      "chunks": [
-        "app/layout:app/layout"
       ],
       "async": false
     }
@@ -519,6 +347,68 @@
       "name": "Header",
       "chunks": [
         "app/layout:app/layout"
+      ],
+      "async": false
+    }
+  },
+  "/home/aditya-datta/ybt_project/src/app/globals.css": {
+    "default": {
+      "id": "null",
+      "name": "default",
+      "chunks": [
+        "static/css/app/image/page.css",
+        "static/css/_app-client_src_app_globals_css.css"
+      ]
+    }
+  },
+  "/home/aditya-datta/ybt_project/src/assets/preview.webp": {
+    "": {
+      "id": "(app-client)/./src/assets/preview.webp",
+      "name": "",
+      "chunks": [
+        "app/image/page:app/image/page"
+      ],
+      "async": false
+    },
+    "*": {
+      "id": "(app-client)/./src/assets/preview.webp",
+      "name": "*",
+      "chunks": [
+        "app/image/page:app/image/page"
+      ],
+      "async": false
+    },
+    "default": {
+      "id": "(app-client)/./src/assets/preview.webp",
+      "name": "default",
+      "chunks": [
+        "app/image/page:app/image/page"
+      ],
+      "async": false
+    }
+  },
+  "/home/aditya-datta/ybt_project/src/app/image/page.jsx": {
+    "": {
+      "id": "(app-client)/./src/app/image/page.jsx",
+      "name": "",
+      "chunks": [
+        "app/image/page:app/image/page"
+      ],
+      "async": false
+    },
+    "*": {
+      "id": "(app-client)/./src/app/image/page.jsx",
+      "name": "*",
+      "chunks": [
+        "app/image/page:app/image/page"
+      ],
+      "async": false
+    },
+    "default": {
+      "id": "(app-client)/./src/app/image/page.jsx",
+      "name": "default",
+      "chunks": [
+        "app/image/page:app/image/page"
       ],
       "async": false
     }
@@ -731,64 +621,54 @@
       "async": false
     }
   },
-  "/home/aditya-datta/ybt_project/src/app/globals.css": {
-    "default": {
-      "id": "null",
-      "name": "default",
-      "chunks": [
-        "static/css/app/image/page.css",
-        "static/css/_app-client_src_app_globals_css.css"
-      ]
-    }
-  },
-  "/home/aditya-datta/ybt_project/src/assets/preview.webp": {
+  "/home/aditya-datta/ybt_project/src/components/hero-image.jsx": {
     "": {
-      "id": "(app-client)/./src/assets/preview.webp",
+      "id": "(app-client)/./src/components/hero-image.jsx",
       "name": "",
       "chunks": [
-        "app/image/page:app/image/page"
+        "app/page:app/page"
       ],
       "async": false
     },
     "*": {
-      "id": "(app-client)/./src/assets/preview.webp",
+      "id": "(app-client)/./src/components/hero-image.jsx",
       "name": "*",
       "chunks": [
-        "app/image/page:app/image/page"
+        "app/page:app/page"
       ],
       "async": false
     },
-    "default": {
-      "id": "(app-client)/./src/assets/preview.webp",
-      "name": "default",
+    "HeroImage": {
+      "id": "(app-client)/./src/components/hero-image.jsx",
+      "name": "HeroImage",
       "chunks": [
-        "app/image/page:app/image/page"
+        "app/page:app/page"
       ],
       "async": false
     }
   },
-  "/home/aditya-datta/ybt_project/src/app/image/page.jsx": {
+  "/home/aditya-datta/ybt_project/src/components/sections/about.jsx": {
     "": {
-      "id": "(app-client)/./src/app/image/page.jsx",
+      "id": "(app-client)/./src/components/sections/about.jsx",
       "name": "",
       "chunks": [
-        "app/image/page:app/image/page"
+        "app/about/page:app/about/page"
       ],
       "async": false
     },
     "*": {
-      "id": "(app-client)/./src/app/image/page.jsx",
+      "id": "(app-client)/./src/components/sections/about.jsx",
       "name": "*",
       "chunks": [
-        "app/image/page:app/image/page"
+        "app/about/page:app/about/page"
       ],
       "async": false
     },
-    "default": {
-      "id": "(app-client)/./src/app/image/page.jsx",
-      "name": "default",
+    "About": {
+      "id": "(app-client)/./src/components/sections/about.jsx",
+      "name": "About",
       "chunks": [
-        "app/image/page:app/image/page"
+        "app/about/page:app/about/page"
       ],
       "async": false
     }
