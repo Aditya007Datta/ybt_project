@@ -4,6 +4,7 @@ import { HeroImage } from "../hero-image";
 import { ChevronIcon } from "../icons/chevron";
 
 export const HomepageHero = () => (
+  
   <Hero>
     <Button
       className="translate-y-[-1rem] animate-fade-in opacity-0"

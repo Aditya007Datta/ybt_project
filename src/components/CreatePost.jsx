@@ -1,13 +1,139 @@
 import Image from "next/image";
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 
 // import { preview } from '../assets';
 import { getRandomPrompt } from "../random/page";
 
 import FormField from "./FormField";
 import Loader from "./Loader";
+import { auth, database } from '../firebase';
+import {
+  collection,
+  addDoc,
+  getDocs,
+  doc,
+  updateDoc,
+  deleteDoc
+} from 'firebase/firestore';
+import { useRouter } from 'next/router';
 
 const CreatePost = () => {
+  const [ID, setID] = useState(null);
+  const [text, setText] = useState('');
+  const [fireData, setFireData] = useState([]);
+  const [file, setFile] = useState("");
+  const [data, setData] = useState({});
+
+  const databaseRef = collection(database, 'YBS');
+
+  let router = useRouter()
+
+  useEffect(() => {
+    let token = sessionStorage.getItem('Token')
+    if (token) {
+      getData()
+    }
+    if (!token) {
+      router.push('/register')
+    }
+  }, [])
+
+  useEffect(() => {
+    const uploadFile = () => {
+      const name = new Date().getTime() + file.name;
+
+      console.log(name);
+      const storageRef = ref(storage, file.name);
+      const uploadTask = uploadBytesResumable(storageRef, file);
+
+      uploadTask.on(
+        "state_changed",
+        (snapshot) => {
+          const progress =
+            (snapshot.bytesTransferred / snapshot.totalBytes) * 100;
+          console.log("Upload is " + progress + "% done");
+          setPerc(progress);
+          switch (snapshot.state) {
+            case "paused":
+              console.log("Upload is paused");
+              break;
+            case "running":
+              console.log("Upload is running");
+              break;
+            default:
+              break;
+          }
+        },
+        (error) => {
+          console.log(error);
+        },
+        () => {
+          getDownloadURL(uploadTask.snapshot.ref).then((downloadURL) => {
+            setData((prev) => ({ ...prev, img: downloadURL }));
+          });
+        }
+      );
+    };
+    file && uploadFile();
+  }, [file]);
+
+  const handleInput = (e) => {
+    const id = e.target.id;
+    const value = e.target.value;
+
+    setData({ ...data, [id]: value });
+  };
+
+  const handleAdd = async (e) => {
+    e.preventDefault();
+    try {
+      const res = await createUserWithEmailAndPassword(
+        auth,
+        data.email,
+        data.password
+      );
+      await setDoc(doc(db, "users", res.user.uid), {
+        ...data,
+        timeStamp: serverTimestamp(),
+      });
+      navigate(-1)
+    } catch (err) {
+      console.log(err);
+    }
+  };
+
+  const addData = () => {
+    addDoc(databaseRef, {
+      text: text,
+    })
+      .then(() => {
+        getData()
+        setText('')
+      })
+      .catch((err) => {
+        console.error(err);
+      })
+  }
+
+  const getData = async () => {
+    await getDocs(databaseRef)
+      .then((response) => {
+        setFireData(response.docs.map((data) => {
+          return { ...data.data(), id: data.id }
+        }))
+      })
+  }
+
+  const getID = (id, text) => {
+    setID(id)
+    setText(text)
+  }
+
+  const logout = () => {
+    sessionStorage.removeItem('Token')
+    router.push('/register')
+  }
+
   const [form, setForm] = useState({
     name: "",
     prompt: "",

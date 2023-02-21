@@ -1,12 +1,15 @@
 "use client";
 import { useState } from "react";
+import { auth } from "../../firebase";
+import { signInWithEmailAndPassword, createUserWithEmailAndPassword } from "firebase/auth"
+import { useRouter } from 'next/navigation';
 
 const Login = () => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
+  const [error, setError] = useState(false);
 
-  const handleSubmit = (event) => {
-    event.preventDefault();
+  const router = useRouter();
 
     const handleLogin = (e) => {
       e.preventDefault();
@@ -15,6 +18,7 @@ const Login = () => {
         .then((userCredential) => {
           // Signed in
           const user = userCredential.user;
+          router.push("/");
           // dispatch({type:"LOGIN", payload:user})
           // navitage("/");
         })
@@ -22,13 +26,12 @@ const Login = () => {
           setError(true);
         });
     };
-  };
 
   return (
     <div>
       <h1>Login</h1>
 
-      <form onSubmit={handleSubmit}>
+      <form onSubmit={handleLogin}>
         <div>
           <label htmlFor="email">Email</label>
           <input
@@ -53,10 +56,12 @@ const Login = () => {
           />
         </div>
 
-        <button type="submit">Login</button>
+        <button onClick={handleLogin} type="submit">Login</button>
+        {error && <span className='font-light text-red-600 mt-[10px] flex justify-center'>Wrong email or password!</span>}
       </form>
     </div>
   );
+  
 };
 
 export default Login;

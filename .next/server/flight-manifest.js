@@ -263,17 +263,17 @@ self.__RSC_MANIFEST={
   },
   "__edge_ssr_module_mapping__": {},
   "__entry_css_files__": {
-    "/home/aditya-datta/ybt_project/src/app/image/page": [
+    "C:\\Users\\User\\Desktop\\WebDev Project\\ybt_project\\src\\app\\image\\page": [
       "static/css/app/image/page.css"
     ],
-    "/home/aditya-datta/ybt_project/src/app/layout": [
+    "C:\\Users\\User\\Desktop\\WebDev Project\\ybt_project\\src\\app\\layout": [
       "static/css/_app-client_src_app_globals_css.css"
     ],
-    "/home/aditya-datta/ybt_project/src/app/page": [
+    "C:\\Users\\User\\Desktop\\WebDev Project\\ybt_project\\src\\app\\page": [
       "static/css/_app-client_src_app_globals_css.css"
     ]
   },
-  "/home/aditya-datta/ybt_project/node_modules/next/dist/client/link.js": {
+  "C:\\Users\\User\\Desktop\\WebDev Project\\ybt_project\\node_modules\\next\\dist\\client\\link.js": {
     "": {
       "id": "(app-client)/./node_modules/next/dist/client/link.js",
       "name": "",
@@ -299,33 +299,7 @@ self.__RSC_MANIFEST={
       "async": false
     }
   },
-  "/home/aditya-datta/ybt_project/node_modules/next/dist/esm/client/link.js": {
-    "": {
-      "id": "(app-client)/./node_modules/next/dist/client/link.js",
-      "name": "",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
-    "*": {
-      "id": "(app-client)/./node_modules/next/dist/client/link.js",
-      "name": "*",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
-    "default": {
-      "id": "(app-client)/./node_modules/next/dist/client/link.js",
-      "name": "default",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    }
-  },
-  "/home/aditya-datta/ybt_project/src/components/hero-image.jsx": {
+  "C:\\Users\\User\\Desktop\\WebDev Project\\ybt_project\\src\\components\\hero-image.jsx": {
     "": {
       "id": "(app-client)/./src/components/hero-image.jsx",
       "name": "",
@@ -351,7 +325,7 @@ self.__RSC_MANIFEST={
       "async": false
     }
   },
-  "/home/aditya-datta/ybt_project/src/components/sections/about.jsx": {
+  "C:\\Users\\User\\Desktop\\WebDev Project\\ybt_project\\src\\components\\sections\\about.jsx": {
     "": {
       "id": "(app-client)/./src/components/sections/about.jsx",
       "name": "",
@@ -377,7 +351,7 @@ self.__RSC_MANIFEST={
       "async": false
     }
   },
-  "/home/aditya-datta/ybt_project/src/components/header.jsx": {
+  "C:\\Users\\User\\Desktop\\WebDev Project\\ybt_project\\src\\components\\header.jsx": {
     "": {
       "id": "(app-client)/./src/components/header.jsx",
       "name": "",
@@ -403,7 +377,7 @@ self.__RSC_MANIFEST={
       "async": false
     }
   },
-  "/home/aditya-datta/ybt_project/src/components/sections/Login.jsx": {
+  "C:\\Users\\User\\Desktop\\WebDev Project\\ybt_project\\src\\components\\sections\\Login.jsx": {
     "": {
       "id": "(app-client)/./src/components/sections/Login.jsx",
       "name": "",
@@ -429,7 +403,7 @@ self.__RSC_MANIFEST={
       "async": false
     }
   },
-  "/home/aditya-datta/ybt_project/node_modules/next/dist/client/components/app-router.js": {
+  "C:\\Users\\User\\Desktop\\WebDev Project\\ybt_project\\node_modules\\next\\dist\\client\\components\\app-router.js": {
     "": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "",
@@ -455,33 +429,7 @@ self.__RSC_MANIFEST={
       "async": false
     }
   },
-  "/home/aditya-datta/ybt_project/node_modules/next/dist/esm/client/components/app-router.js": {
-    "": {
-      "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
-      "name": "",
-      "chunks": [
-        "app-client-internals:app-client-internals"
-      ],
-      "async": false
-    },
-    "*": {
-      "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
-      "name": "*",
-      "chunks": [
-        "app-client-internals:app-client-internals"
-      ],
-      "async": false
-    },
-    "default": {
-      "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
-      "name": "default",
-      "chunks": [
-        "app-client-internals:app-client-internals"
-      ],
-      "async": false
-    }
-  },
-  "/home/aditya-datta/ybt_project/node_modules/next/dist/client/components/error-boundary.js": {
+  "C:\\Users\\User\\Desktop\\WebDev Project\\ybt_project\\node_modules\\next\\dist\\client\\components\\error-boundary.js": {
     "": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "",
@@ -507,33 +455,7 @@ self.__RSC_MANIFEST={
       "async": false
     }
   },
-  "/home/aditya-datta/ybt_project/node_modules/next/dist/esm/client/components/error-boundary.js": {
-    "": {
-      "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
-      "name": "",
-      "chunks": [
-        "app-client-internals:app-client-internals"
-      ],
-      "async": false
-    },
-    "*": {
-      "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
-      "name": "*",
-      "chunks": [
-        "app-client-internals:app-client-internals"
-      ],
-      "async": false
-    },
-    "default": {
-      "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
-      "name": "default",
-      "chunks": [
-        "app-client-internals:app-client-internals"
-      ],
-      "async": false
-    }
-  },
-  "/home/aditya-datta/ybt_project/node_modules/next/dist/client/components/layout-router.js": {
+  "C:\\Users\\User\\Desktop\\WebDev Project\\ybt_project\\node_modules\\next\\dist\\client\\components\\layout-router.js": {
     "": {
       "id": "(app-client)/./node_modules/next/dist/client/components/layout-router.js",
       "name": "",
@@ -559,33 +481,7 @@ self.__RSC_MANIFEST={
       "async": false
     }
   },
-  "/home/aditya-datta/ybt_project/node_modules/next/dist/esm/client/components/layout-router.js": {
-    "": {
-      "id": "(app-client)/./node_modules/next/dist/client/components/layout-router.js",
-      "name": "",
-      "chunks": [
-        "app-client-internals:app-client-internals"
-      ],
-      "async": false
-    },
-    "*": {
-      "id": "(app-client)/./node_modules/next/dist/client/components/layout-router.js",
-      "name": "*",
-      "chunks": [
-        "app-client-internals:app-client-internals"
-      ],
-      "async": false
-    },
-    "default": {
-      "id": "(app-client)/./node_modules/next/dist/client/components/layout-router.js",
-      "name": "default",
-      "chunks": [
-        "app-client-internals:app-client-internals"
-      ],
-      "async": false
-    }
-  },
-  "/home/aditya-datta/ybt_project/node_modules/next/dist/client/components/render-from-template-context.js": {
+  "C:\\Users\\User\\Desktop\\WebDev Project\\ybt_project\\node_modules\\next\\dist\\client\\components\\render-from-template-context.js": {
     "": {
       "id": "(app-client)/./node_modules/next/dist/client/components/render-from-template-context.js",
       "name": "",
@@ -611,33 +507,7 @@ self.__RSC_MANIFEST={
       "async": false
     }
   },
-  "/home/aditya-datta/ybt_project/node_modules/next/dist/esm/client/components/render-from-template-context.js": {
-    "": {
-      "id": "(app-client)/./node_modules/next/dist/client/components/render-from-template-context.js",
-      "name": "",
-      "chunks": [
-        "app-client-internals:app-client-internals"
-      ],
-      "async": false
-    },
-    "*": {
-      "id": "(app-client)/./node_modules/next/dist/client/components/render-from-template-context.js",
-      "name": "*",
-      "chunks": [
-        "app-client-internals:app-client-internals"
-      ],
-      "async": false
-    },
-    "default": {
-      "id": "(app-client)/./node_modules/next/dist/client/components/render-from-template-context.js",
-      "name": "default",
-      "chunks": [
-        "app-client-internals:app-client-internals"
-      ],
-      "async": false
-    }
-  },
-  "/home/aditya-datta/ybt_project/src/app/globals.css": {
+  "C:\\Users\\User\\Desktop\\WebDev Project\\ybt_project\\src\\app\\globals.css": {
     "default": {
       "id": "null",
       "name": "default",
@@ -647,7 +517,7 @@ self.__RSC_MANIFEST={
       ]
     }
   },
-  "/home/aditya-datta/ybt_project/src/app/image/page.jsx": {
+  "C:\\Users\\User\\Desktop\\WebDev Project\\ybt_project\\src\\app\\image\\page.jsx": {
     "": {
       "id": "(app-client)/./src/app/image/page.jsx",
       "name": "",

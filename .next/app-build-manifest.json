@@ -20,16 +20,16 @@
       "static/chunks/main-app.js",
       "static/chunks/app/about/page.js"
     ],
-    "/login/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/login/page.js"
-    ],
     "/image/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/css/app/image/page.css",
       "static/chunks/app/image/page.js"
+    ],
+    "/login/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/login/page.js"
     ]
   }
 }

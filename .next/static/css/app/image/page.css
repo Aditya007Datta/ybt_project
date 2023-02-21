@@ -647,6 +647,9 @@ video {
 .mt-auto {
   margin-top: auto;
 }
+.mt-\[10px\] {
+  margin-top: 10px;
+}
 .block {
   display: block;
 }
@@ -971,24 +974,24 @@ video {
 .border-transparent-white {
   border-color: rgba(255, 255, 255, 0.08);
 }
-.bg-\[\#0b0c12\] {
-  --tw-bg-opacity: 1;
-  background-color: rgb(11 12 18 / var(--tw-bg-opacity));
-}
 .bg-\[\#10131f\] {
   --tw-bg-opacity: 1;
   background-color: rgb(16 19 31 / var(--tw-bg-opacity));
+}
+.bg-\[\#171b29\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(23 27 41 / var(--tw-bg-opacity));
+}
+.bg-\[\#21bf0f\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(33 191 15 / var(--tw-bg-opacity));
 }
 .bg-\[\#EcECF1\] {
   --tw-bg-opacity: 1;
   background-color: rgb(236 236 241 / var(--tw-bg-opacity));
 }
-.bg-\[\#f9fafe\] {
-  --tw-bg-opacity: 1;
-  background-color: rgb(249 250 254 / var(--tw-bg-opacity));
-}
-.bg-\[rgba\(0\2c 0\2c 0\2c 0\.5\)\] {
-  background-color: rgba(0,0,0,0.5);
+.bg-\[rgba\(239\2c 82\2c 82\2c 0\.5\)\] {
+  background-color: rgba(239,82,82,0.5);
 }
 .bg-background {
   --tw-bg-opacity: 1;
@@ -1000,21 +1003,6 @@ video {
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
-}
-.bg-\[\#171b29\] {
-  --tw-bg-opacity: 1;
-  background-color: rgb(23 27 41 / var(--tw-bg-opacity));
-}
-.bg-\[\#57ed46\] {
-  --tw-bg-opacity: 1;
-  background-color: rgb(87 237 70 / var(--tw-bg-opacity));
-}
-.bg-\[\#21bf0f\] {
-  --tw-bg-opacity: 1;
-  background-color: rgb(33 191 15 / var(--tw-bg-opacity));
-}
-.bg-\[rgba\(239\2c 82\2c 82\2c 0\.5\)\] {
-  background-color: rgba(239,82,82,0.5);
 }
 .bg-opacity-10 {
   --tw-bg-opacity: 0.1;
@@ -1069,10 +1057,6 @@ video {
   padding-left: 1.6rem;
   padding-right: 1.6rem;
 }
-.px-5 {
-  padding-left: 2rem;
-  padding-right: 2rem;
-}
 .px-6 {
   padding-left: 2.4rem;
   padding-right: 2.4rem;
@@ -1089,9 +1073,9 @@ video {
   padding-top: 6rem;
   padding-bottom: 6rem;
 }
-.py-2 {
-  padding-top: 0.8rem;
-  padding-bottom: 0.8rem;
+.py-3 {
+  padding-top: 1.2rem;
+  padding-bottom: 1.2rem;
 }
 .py-6 {
   padding-top: 2.4rem;
@@ -1104,14 +1088,6 @@ video {
 .py-\[5\.6rem\] {
   padding-top: 5.6rem;
   padding-bottom: 5.6rem;
-}
-.py-4 {
-  padding-top: 1.6rem;
-  padding-bottom: 1.6rem;
-}
-.py-3 {
-  padding-top: 1.2rem;
-  padding-bottom: 1.2rem;
 }
 .pb-\[16\.4rem\] {
   padding-bottom: 16.4rem;
@@ -1164,6 +1140,9 @@ video {
 }
 .font-semibold {
   font-weight: 600;
+}
+.font-light {
+  font-weight: 300;
 }
 .leading-tight {
   line-height: 1.25;

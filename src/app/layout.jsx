@@ -4,6 +4,7 @@ import Login from "@/components/sections/Login";
 import "src/app/globals.css";
 
 export default function Layout({ children }) {
+  
   return (
     <html lang="en">
       <head>
