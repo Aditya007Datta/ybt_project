@@ -1,4 +1,4 @@
-import { SetDirection } from "@/components/sections/set-direction";
+import { SetDirection } from "@/components/sections/about";
 import React from "react";
 
 const about = () => {

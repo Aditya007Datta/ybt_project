@@ -1,6 +1,7 @@
 import { Container } from "@/components/container";
+import { About } from "@/components/sections/about";
 import { HomepageHero } from "@/components/sections/homepage-hero";
-import { SetDirection } from "@/components/sections/set-direction";
+
 import "src/app/globals.css";
 export default function Homepage() {
   return (
@@ -10,8 +11,7 @@ export default function Homepage() {
           <HomepageHero />
         </Container>
       </div>
-
-      <SetDirection />
+      <About />
     </>
   );
 }
